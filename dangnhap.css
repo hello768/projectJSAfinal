@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+  }
+  body {
+    background-image: url("./IMG_0049.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .dangnhap{position:absolute;
+    background-color: gray;
+      border-radius: 15px;
+      width: 23vh;
+      height: 5vh;
+      left: 102vh;
+      top: 63vh;
+      font-size: 2vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    transition: 1s ease-in-out;
+z-index:1;
+    }
+    .dangnhap:hover{
+      width:25vh;
+      transition: 1s ease-in-out;
+    }
+    .dn{text-decoration:none;
+      color:black;
+      transition: 1s ease-in-out;
+    font-size:2.5vh;}
+    .dn:hover{
+      color:white;
+      transition: 1s ease-in-out;
+    }
+    table, th, td{
+        border: none;
+        color:white;
+        border-radius:1vh;
+        font-size:5vh;
+    }
+    .signin{width:100%;
+    height:100vh;
+  display:flex;
+align-items:center;
+justify-content:center;}
+    .signin2{position:relative;
+      background-color:rgb(199, 199, 199);
+      border-radius:1vh;
+      opacity:85%;
+width:80vh;
+height:40vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+.signin1{position:absolute;
+top:8vh;}
+.hhh{
+width:15vh;
+height:5vh;
+border-radius:1vh;
+font-size:2vh;
+}
+.h{
+  width:40vh;
+  height:5vh;
+  border-radius:1vh;
+position:relative;
+}
+.moi{display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;}
+.chu{position:absolute;
+top:3vh;
+font-size:3vh;
+background-color:white;
+border-radius:1vh;}
+.anh2{position:absolute;
+z-index:1;
+top:31vh;
+left:48.5vh;
+}
+.img2{width:7vh;}
